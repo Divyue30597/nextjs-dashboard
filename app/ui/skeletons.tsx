@@ -2,6 +2,18 @@
 const shimmer =
   'before:absolute before:inset-0 before:-translate-x-full before:animate-[shimmer_2s_infinite] before:bg-gradient-to-r before:from-transparent before:via-white/60 before:to-transparent';
 
+// const shimmer = {
+//   '.your-selector::before': {
+//     content: '',
+//     position: 'absolute',
+//     inset: 0,
+//     transform: 'translateX(-100%)',
+//     animation: 'shimmer_2s_infinite',
+//     background:
+//       'linear-gradient(to right, transparent, white 60%, transparent)',
+//   },
+// };
+
 export function CardSkeleton() {
   return (
     <div
